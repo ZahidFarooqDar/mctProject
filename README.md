@@ -1,6 +1,6 @@
 # FOOD DELIVERY API
 ![Version](https://img.shields.io/static/v1?label=java-version&message=%3E=11&color=blue) ![documentation](https://img.shields.io/static/v1?label=documentation&message=yes&color=green) ![maintanined?](https://img.shields.io/static/v1?label=maintained?&message=yes&color=green) ![License](https://img.shields.io/static/v1?label=license&message=ZAHID&color=orange)
-* This repository contains the code for a food delivery platform API that allows users to order food from restaurants. The API is developed using the Spring Boot framework and utilizes MySQL(provided by ec2 instance) as the database management system.
+* This repository contains the code for a food delivery platform API that allows users to order food from restaurants. The API is developed using the Spring Boot framework and utilizes MySQL (provided by the EC2 instance) as the database management system.
 ## 🏠  [Homepage](https://github.com/ZahidFarooqDar/mctProject.git)
 ## Prerequisities
 * java >=11.0
@@ -19,17 +19,17 @@
 * The application is built using the SpringBoot framework and consists of four layers: DTO, model, service, and repository.
 ---
 ### MODEL
-* This layer consists basically the class level things, the various classes required for the project and these classes consists the attributes to be stored.
+* This layer consists basically of class-level things, the various classes required for the project, and these classes consist of the attributes to be stored.
 ---
 ### CONTROLLER
-* The controller layer handles the HTTP requests, translates the JSON parameter to object, and authenticates the request and transfer it to the 
-  business (service) layer.
-* Controller actually contain the different api's which are used in the project.
+* The controller layer handles the HTTP requests, translates the JSON parameter to object, authenticates the request and transfer it to the 
+business (service) layer.
+* The controller actually contains the different APIs that are used in the project.
 
 
 ### SERVICE
-* Service layer here used is beautifully managed as it contains respective bussiness logic to the services used.
-* Here we have AdminService, CustomerService, FoodOrderService and UserService which are managed to have well coded bussiness logic.
+* The service layer here used is beautifully managed as it contains the respective business logic for the services used.
+* Here we have AdminService, CustomerService, FoodOrderService, and UserService, which are managed to have well coded business logic.
   
 ---
 ### REPOSITORY 
